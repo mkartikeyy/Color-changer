@@ -1,34 +1,44 @@
-html {
-    margin: 0;
-  }
-  
-  span {
-    display: block;
-  }
-  .canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
-  }
-  
-  .button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
-  }
-  
-  #grey {
-    background: grey;
-  }
-  
-  #white {
-    background: white;
-  }
-  #blue {
-    background: blue;
-  }
-  #yellow {
-    background: yellow;
-  }
-  
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #212121;
+}
+nav{
+  height: 75px;
+  color: antiquewhite;
+  background-color: plum;
+  text-align: center;
+
+}
+#name{
+  color: #212121;
+}
+.container{
+  margin: 10px; padding: 10px;
+  /* display: flex; */
+  border: 2px solid white;
+  align-items: center;
+}
+.box{
+  height: 100px;
+  width: 200px;
+  border: 2px solid white; border-radius: 5px;
+  margin-top: 20px;
+  align-items: center;
+  display: inline-block;
+
+}
+#blue{
+  background-color: rgb(5, 34, 200);
+}
+#purple{
+  background-color: rgb(150, 21, 197);
+}
+#green{
+  background-color: rgb(4, 216, 36);
+}
+#orange{
+  background-color: rgb(237, 113, 12);
+}
